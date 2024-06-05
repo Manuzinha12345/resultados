@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Inter", sans-serif;
+    font-family: "inter", sans-serif;
 }
 
 :root {
@@ -84,7 +84,7 @@ padding: 2.4rem 3.2rem;
 .resumo > div {
     display: flex;
     justify-content: space-between;
-    allign-items: center;
+    align-items: center;
     padding: 1.6rem;
     border-radius: 1.2rem;
     margin-bottom: 1.6rem;
@@ -94,6 +94,15 @@ padding: 2.4rem 3.2rem;
     align-items: center;
     gap:1.2rem;
 }
+
+.resumo > div strong{
+    color: var(--dark-navy);
+}
+
+.resumo > div strong span{
+    opacity: 0.5rem;
+}
+
 .resumo_reaçao {
     background: var(--reacao-bg) var(--resumo-div-bg);
     color: var(--reacao-bg);
@@ -112,4 +121,16 @@ padding: 2.4rem 3.2rem;
 .resumo_visual {
     background: var(--visual-bg) var(--resumo-div-bg);
     color: var(--visual-bg);
+}
+
+.resumo botton{
+    margin-top: 0.8rem;
+    width: 100%;
+    border: none;
+    background: var(--dark-navy);
+    color: var(--white);
+    padding-block: 1.6rem;
+    border-radius: 12.8rem;
+    font-size: 1.8rem;
+    font-weight: 700;
 }
